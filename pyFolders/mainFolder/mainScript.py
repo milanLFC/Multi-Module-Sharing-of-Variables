@@ -16,10 +16,10 @@ import subFile
 '''
 if __name__ == '__main__':
   print(subFile.scriptName)
-  # get the script name
+  # the above will print out the value from subFile
   subFile.scriptName = os.path.basename(__file__)
+  # the above will update the variable
   print(subFile.scriptName)
 
-  workingDir = os.path.abspath(os.path.dirname(__file__)) 
 
   subFile.subFunction()
