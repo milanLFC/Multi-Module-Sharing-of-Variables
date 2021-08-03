@@ -8,7 +8,7 @@ I had a variable in my main script that i wanted to be accessed via my sub modul
 I didnt want to pass the variable as a parameter, and i wanted both the main script and the sub module to be able to access and change the variable's contents.
 
 Why did i not want to pass the variable as a parameter to the function?
-This is because i had many variables that i needed to have a true global nature, and i didnt want to pass all of these as parameters.
+This is because i had many variables that i needed to have as a true "global" nature, and i didnt want to pass all of these as parameters.
 
 Solution:
 
